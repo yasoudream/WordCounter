@@ -1,0 +1,7 @@
+C:\Users\DELL\Desktop\WC\WC\bin\Debug\WC.exe.config
+C:\Users\DELL\Desktop\WC\WC\bin\Debug\WC.exe
+C:\Users\DELL\Desktop\WC\WC\bin\Debug\WC.pdb
+C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.exe
+C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.pdb
