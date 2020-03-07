@@ -26,7 +26,7 @@ namespace WC.Counter.Functions
 
         public int GetInitialValue()
         {
-            return 0;
+            return 1;
         }
 
         public string GetLogHead()
