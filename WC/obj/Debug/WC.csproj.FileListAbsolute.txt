@@ -5,3 +5,10 @@ C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.csprojAssemblyReference.cache
 C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.exe
 C:\Users\DELL\Desktop\WC\WC\obj\Debug\WC.pdb
+D:\文件\C#练习\WC\WC\bin\Debug\WC.exe.config
+D:\文件\C#练习\WC\WC\bin\Debug\WC.exe
+D:\文件\C#练习\WC\WC\bin\Debug\WC.pdb
+D:\文件\C#练习\WC\WC\obj\Debug\WC.csprojAssemblyReference.cache
+D:\文件\C#练习\WC\WC\obj\Debug\WC.csproj.CoreCompileInputs.cache
+D:\文件\C#练习\WC\WC\obj\Debug\WC.exe
+D:\文件\C#练习\WC\WC\obj\Debug\WC.pdb

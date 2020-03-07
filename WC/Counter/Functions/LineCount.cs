@@ -7,6 +7,9 @@ using WC.Counter;
 
 namespace WC.Counter.Functions
 {
+    /// <summary>
+    /// 行数计数
+    /// </summary>
     class LineCount : WordCounterFunction
     {
         //不需参数的功能，使用单例类

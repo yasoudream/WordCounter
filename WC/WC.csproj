@@ -44,7 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cmdPart\CommondReader.cs" />
+    <Compile Include="cmdPart\FileDataReader.cs" />
     <Compile Include="Counter\Functions\LineCount.cs" />
+    <Compile Include="Counter\WordCounterFunction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Counter\Functions\LettersCount.cs" />

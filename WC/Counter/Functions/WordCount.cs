@@ -14,6 +14,7 @@ namespace WC.Counter.Functions
     class WordCount : WordCounterFunction
     {
         private bool inWord = false;
+
         public int GetInitialValue()
         {
             return 0;

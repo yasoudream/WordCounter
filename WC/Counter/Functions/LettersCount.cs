@@ -33,7 +33,7 @@ namespace WC.Counter.Functions
 
         public string GetLogHead()
         {
-            return "Letter Count: ";
+            return "Character Count: ";
         }
 
         public void Init() { }
