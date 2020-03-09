@@ -1,0 +1,7 @@
+D:\文件\C#练习\WC\WC\bin\Release\WC.exe.config
+D:\文件\C#练习\WC\WC\bin\Release\WC.exe
+D:\文件\C#练习\WC\WC\bin\Release\WC.pdb
+D:\文件\C#练习\WC\WC\obj\Release\WC.csprojAssemblyReference.cache
+D:\文件\C#练习\WC\WC\obj\Release\WC.csproj.CoreCompileInputs.cache
+D:\文件\C#练习\WC\WC\obj\Release\WC.exe
+D:\文件\C#练习\WC\WC\obj\Release\WC.pdb

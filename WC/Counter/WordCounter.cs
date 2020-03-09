@@ -98,10 +98,11 @@ namespace WC.Counter
             //当前字符下标
             int currentLetterIndex = 0;
 
+            int functionsListCount = functions.Count;
             //第一个字符
             if (currentLetterIndex < currentString.Length)
             {
-                for (int i = 0; i < functions.Count; i++)
+                for (int i = 0; i < functionsListCount; i++)
                 {
                     functionsCount[i] += functions[i].OnStringHead(currentString[currentLetterIndex]);
                 }
@@ -114,7 +115,7 @@ namespace WC.Counter
             //中间的字符
             while (currentLetterIndex < currentString.Length - 1)
             {
-                for (int i = 0; i < functions.Count; i++)
+                for (int i = 0; i < functionsListCount; i++)
                 {
                     functionsCount[i] += functions[i].OnTraverse(currentString[currentLetterIndex]);
                 }
@@ -123,7 +124,7 @@ namespace WC.Counter
             //最后一个字符
             if (currentLetterIndex == currentString.Length - 1)
             {
-                for (int i = 0; i < functions.Count; i++)
+                for (int i = 0; i < functionsListCount; i++)
                 {
                     functionsCount[i] += functions[i].OnStringEnd(currentString[currentLetterIndex]);
                 }

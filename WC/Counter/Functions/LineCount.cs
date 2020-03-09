@@ -10,7 +10,7 @@ namespace WC.Counter.Functions
     /// <summary>
     /// 行数计数
     /// </summary>
-    class LineCount : WordCounterFunction
+    public class LineCount : WordCounterFunction
     {
         //不需参数的功能，使用单例类
         private static LineCount _instance;
