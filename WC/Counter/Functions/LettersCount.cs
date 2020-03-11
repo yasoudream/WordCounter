@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WC.Counter;
 
 namespace WC.Counter.Functions
 {
@@ -50,9 +49,9 @@ namespace WC.Counter.Functions
 
         public int OnTraverse(char letter)
         {
-            if (letter != ' ' && letter != '\n' && letter != '\t')
-                return 1;
-            return 0;
+            if (letter == ' ' || letter == '\n' || letter == '\t' || letter == '\r')
+                return 0;
+            return 1;
         }
     }
 }

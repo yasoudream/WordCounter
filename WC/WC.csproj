@@ -46,6 +46,9 @@
   <ItemGroup>
     <Compile Include="cmdPart\CommondReader.cs" />
     <Compile Include="cmdPart\FileDataReader.cs" />
+    <Compile Include="Counter\Functions\AnnotationCount.cs" />
+    <Compile Include="Counter\Functions\CodeLineCount.cs" />
+    <Compile Include="Counter\Functions\EmityLineCount.cs" />
     <Compile Include="Counter\Functions\LineCount.cs" />
     <Compile Include="Counter\WordCounterFunction.cs" />
     <Compile Include="Program.cs" />

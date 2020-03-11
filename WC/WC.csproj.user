@@ -4,6 +4,6 @@
     <StartArguments>-x -c</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>-x -c -l -w</StartArguments>
+    <StartArguments>-x -c -l -w -a</StartArguments>
   </PropertyGroup>
 </Project>

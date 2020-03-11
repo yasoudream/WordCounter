@@ -91,6 +91,12 @@ namespace WC.IO
                     //    info.SetError(CommondInfo.ErrorType.FileError);
                     //return info;
                 }
+                else if (commond[funcIndex] == "-a")
+                {
+                    info.funcs.Add(new AnnotationCount());
+                    info.funcs.Add(new EmityLineCount());
+                    //info.funcs.Add(new CodeLineCount());
+                }
                 else
                 {
                     info.SetError(CommondInfo.ErrorType.CommondError);

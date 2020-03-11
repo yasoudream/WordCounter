@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WC.Counter;
-
 
 namespace WC.Counter.Functions
 {
@@ -22,7 +20,7 @@ namespace WC.Counter.Functions
 
         public string GetLogHead()
         {
-            return "English Word Count: ";
+            return "Word Count: ";
         }
 
         public void Init() { inWord = false; }
@@ -39,7 +37,7 @@ namespace WC.Counter.Functions
 
         public int OnTraverse(char letter)
         {
-            if (letter <= 'Z' && letter >= 'A' || letter <= 'z' && letter >= 'a')
+            if (letter <= 'Z' && letter >= 'A' || letter <= 'z' && letter >= 'a' || letter <= '9' && letter >= '0')
             {
                 if (!inWord)
                 {
