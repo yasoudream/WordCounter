@@ -48,7 +48,7 @@ namespace WC.Counter.Functions
                 isEmity = true;
                 return 1;
             }
-            else if (letter == ' ' || letter == '\n' || !isEmity)   //不可见字符
+            else if (letter == ' ' || letter == '\n' || !isEmity || letter == '\r')   //不可见字符
             {
                 return 0;
             }

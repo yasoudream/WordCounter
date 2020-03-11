@@ -81,7 +81,7 @@ namespace WC
             //输出
             Console.WriteLine(counter.GetAllLogs());
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
          
         /// <summary>

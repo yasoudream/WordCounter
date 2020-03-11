@@ -130,10 +130,10 @@ namespace WC.Counter
                 }
             }
 
-            for (int ii = 0; ii < currentString.Length; ii++)
-            {
-                Console.WriteLine(currentString[ii]);
-            }
+            //for (int ii = 0; ii < currentString.Length; ii++)
+            //{
+            //    Console.WriteLine(currentString[ii]);
+            //}
 
             return;
         }
